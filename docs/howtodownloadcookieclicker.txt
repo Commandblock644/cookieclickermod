@@ -1,0 +1,8 @@
+theres no super easy way but this is what i came up with.
+
+first step is downloading all of the files from the "cookieclicker" folder in dev tools that can be done by rightclicking the files and do save as
+then for img,loc and sdn you can you wget like this replace snd with what you are doing
+
+wget -r -np -nH --cut-dirs=3 -R index.html http://orteil.dashnet.org/cookieclicker/snd/
+
+it will create some garbage files that you can just delete but you dont need to

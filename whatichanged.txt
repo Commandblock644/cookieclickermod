@@ -1,0 +1,2 @@
+- removed checks for it being in an iframe so it can be embeded
+- ads were causing problems on some school accounts so they were removed (will be adding a toggle in the future)
